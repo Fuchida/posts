@@ -18,5 +18,15 @@
 	    "file": "with-python-pick-random-item",
 	    "description": "Pick random item from list",
 	    "content": ""
+	},
+	    {
+	    "title": "Virtualenv and Python Version",
+	    "author": "Abdul",
+	    "date": "2014",
+	    "url": "virtualenv-and-python-version",
+	    "tags" : ["python"],
+	    "file": "virtualenv-and-python-version",
+	    "description": "Pick a specific python version for your virtualenv",
+	    "content": ""
 	}
 ]
