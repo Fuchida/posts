@@ -20,12 +20,12 @@
 	    "content": ""
 	},
 	    {
-	    "title": "Virtualenv and Python Version",
+	    "title": "Virtualenv and Python Versions",
 	    "author": "Abdul",
 	    "date": "2014",
-	    "url": "virtualenv-and-python-version",
+	    "url": "virtualenv-and-python-versions",
 	    "tags" : ["python"],
-	    "file": "virtualenv-and-python-version",
+	    "file": "virtualenv-and-python-versions",
 	    "description": "Pick a specific python version for your virtualenv",
 	    "content": ""
 	}
