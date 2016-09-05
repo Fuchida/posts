@@ -5,10 +5,10 @@ Here is another piece of common git commands I keep forgetting. I think the reas
 
 Add your username and email to the global git ==version 1.9.2== config:
 
-```>>> git config --global user.name "Your username"```
+`>>> git config --global user.name "Your username"`
 
-```>>> git config --global email "Your email address"```
+`>>> git config --global email "Your email address"`
 
 Specify a default editor after you run git commit:
 
-```>>> git config --global core-editor your-editor-name>```
+`>>> git config --global core-editor your-editor-name>`
