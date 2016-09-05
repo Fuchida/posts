@@ -7,12 +7,10 @@ Many times while taking a look at open source code, I would know what is happeni
 
 I believe comments that explain intent are just as important as those that explain function. like the following.
 
-```
-elif self.mode == 'reset':
-	#at 'reset',self.elapsed_time return value is expected.
-	#no additional work needs to be done
-	
-	return self.elapsed_time()
-```
+    elif self.mode == 'reset':
+        #at 'reset',self.elapsed_time return value is expected.
+        #no additional work needs to be done
+        
+        return self.elapsed_time()
 
 Comments like these aide the reader in figuring out why another programmer made the decisions they did. Like hearing the inner monologue of your fellow programer when he wrote the code you are now reading.
