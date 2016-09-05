@@ -3,10 +3,9 @@ date: 2015
 
 If you have a list of items or a sequence and you want to pic a random item from said sequence. Here is a quick way to do it
 
-```
-from random import choice
 
-letters = ['a', 'b', 'c', 'd']
+    from random import choice
 
-print(choice(letters))
-```
+    letters = ['a', 'b', 'c', 'd']
+
+    print(choice(letters))
