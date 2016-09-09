@@ -1,3 +1,6 @@
+title: Python Clases by Example
+date: 2016
+
 ###Basic structure of a class
 ```
 class Person(object):
