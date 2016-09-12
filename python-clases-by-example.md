@@ -33,7 +33,7 @@ class Citizen(Person):
 class SecretAgent(Citizen):
     
     def __init__(self, name, country, gender, isActive):
-        Citizen.__init__(self, name, country, gender)
+        super(SecretAgent, self).__init__(name, country, gender)
         self.isActive = isActive
    	# Method overriding
     def get_name(self):
