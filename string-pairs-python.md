@@ -1,6 +1,6 @@
 
-title: Creating string pairs with Python
-date: 2016
+title: Creating String Pairs with Python
+date: 2014
 
 ### Description:
 
