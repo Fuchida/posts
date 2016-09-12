@@ -1,4 +1,3 @@
-
 title: Creating String Pairs with Python
 date: 2016
 
