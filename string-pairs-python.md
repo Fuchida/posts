@@ -16,6 +16,7 @@ solution('abcdef') # should return ['ab', 'cd', 'ef']
 ```python
     # py:3.4
     def solution(letters):
+    
     split_letters = [ letters[index-1] + letters[index] \
     for index in range(len(letters)) if index % 2 ] 
         
