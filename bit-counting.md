@@ -8,7 +8,7 @@ Write a function that takes an (unsigned) integer as input,
 and returns the number of bits that are equal to one in the binary representation of that number.
 
 The binary representation of 1234 is 10011010010, so the function should return 5 in this case. 
-This is beause there are five "1" or bits that are set in 10011010010
+Because there are five "1" or bits that are set in 10011010010.
 
 ###Solution:
 
