@@ -15,6 +15,7 @@ class Person(object):
         return "Fuchida"
 ```
 
+
 ```python
 # test_person.py
 
@@ -32,6 +33,7 @@ class PersonTestCase(unittest.TestCase):
         self.assertEqual(Person().alias(), self.test_alias,
                          msg="Got: {}, Expected: {}".format(Person().alias(), self.test_alias))
 ```
+
 
 ```python
 # req.txt
