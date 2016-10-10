@@ -8,6 +8,8 @@ Below are some example files that you can use.
 
 #### person.py:
 ```python
+#  py:3.5
+
 class Person(object):
 
     def alias(self):
@@ -16,6 +18,8 @@ class Person(object):
 
 #### test_person.py:
 ```python
+#  py:3.5
+
 import unittest
 from person import Person
 
