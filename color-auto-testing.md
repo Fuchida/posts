@@ -6,19 +6,16 @@ using `rednose` and `sniffer`.
 
 Below are some example files that you can use.
 
+###### person.py
 ```python
-# person.py
-
 class Person(object):
 
     def alias(self):
         return "Fuchida"
 ```
 
-
+##### test_person.py
 ```python
-# test_person.py
-
 import unittest
 from person import Person
 
@@ -31,13 +28,12 @@ class PersonTestCase(unittest.TestCase):
     def test_bar(self):
         """alias method returns test_name value """
         self.assertEqual(Person().alias(), self.test_alias,
-                         msg="Got: {}, Expected: {}".format(Person().alias(), self.test_alias))
+                         msg="Got: {}, Expected: {}".format(Person().alias(),
+                         self.test_alias))
 ```
 
-
+##### req.txt
 ```python
-# req.txt
-
 colorama==0.3.7
 MacFSEvents==0.7
 nose==1.3.7
