@@ -6,7 +6,7 @@ using `rednose` and `sniffer`.
 
 Below are some example files that you can use.
 
-###### person.py
+#### person.py:
 ```python
 class Person(object):
 
@@ -14,7 +14,7 @@ class Person(object):
         return "Fuchida"
 ```
 
-##### test_person.py
+#### test_person.py:
 ```python
 import unittest
 from person import Person
@@ -32,7 +32,7 @@ class PersonTestCase(unittest.TestCase):
                          self.test_alias))
 ```
 
-##### req.txt
+#### req.txt:
 ```python
 colorama==0.3.7
 MacFSEvents==0.7
@@ -42,7 +42,7 @@ rednose==1.2.1
 sniffer==0.3.5
 ```
 
-#### Setup
+#### Setup:
 1. Create a virtual environment
 2. Install requirements from `req.txt`
 3. Add the `person.py` and `test_person.py` files to your environment
