@@ -35,7 +35,6 @@ class PersonTestCase(unittest.TestCase):
 #### req.txt:
 ```python
 colorama==0.3.7
-MacFSEvents==0.7
 nose==1.3.7
 python-termstyle==0.1.10
 rednose==1.2.1
