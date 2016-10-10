@@ -48,5 +48,5 @@ sniffer==0.3.5
 3. Add the `person.py` and `test_person.py` files to your environment
 4. Run `sniffer -x--rednose`
 
-You will end up with colored output when tests pass of fail and if you change 
+You will end up with colored output when tests pass or fail and if you change 
 the files, the tests will rerun automatically.
