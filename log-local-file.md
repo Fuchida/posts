@@ -1,4 +1,4 @@
-title: Logging to local File
+title: Local File Logging
 date: 2016
 tags: python
 
