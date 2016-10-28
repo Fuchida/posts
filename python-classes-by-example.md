@@ -3,6 +3,7 @@ date: 2016
 
 ###Basic structure of a class
 ```
+# py:3.5
 class Person(object):
 
     def __init__(self, name, gender):
@@ -21,10 +22,11 @@ class Person(object):
 
 ###Subclassing
 ```
+# py:3.5
 class Citizen(Person):
     
     def __init__(self, name, country, gender):
-        Person.__init__(self, name, gender)
+        super.__init__(self, name, gender)
         self.country = country
     
     def get_nationality(self):
@@ -33,7 +35,7 @@ class Citizen(Person):
 class SecretAgent(Citizen):
     
     def __init__(self, name, country, gender, isActive):
-        super(SecretAgent, self).__init__(name, country, gender)
+        super().__init__(name, country, gender)
         self.isActive = isActive
    	# Method overriding
     def get_name(self):
