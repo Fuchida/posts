@@ -1,4 +1,4 @@
-title: Python Clases by Example
+title: Python Classes by Example
 date: 2016
 
 ###Basic structure of a class
