@@ -14,7 +14,10 @@ def get_local_logger():
 
     logger = logging.getLogger(__file__)
     hdlr = logging.FileHandler(__file__ + '.log')
-    logging_format = '%(asctime)s|%(name)s|%(filename)s:%(lineno)s|%(levelname)s|%(message)s'
+    
+    time_name_fmt = '%(asctime)s|%(name)s|%(filename)s'
+    log_detail_fmt = ':%(lineno)s|%(levelname)s|%(message)s'
+    logging_format = time_name_fmt + log_detail_fmt
 
     formatter = logging.Formatter(logging_format)
     hdlr.setFormatter(formatter)
