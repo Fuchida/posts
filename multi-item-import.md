@@ -11,9 +11,9 @@ from the same module.
     # Do this 
     from module import (func1, func2, func3
                         func4, func5, func6,
-                        func7, func8, func9, 
-                        func10)
+                        func7, func8, func9
+                        )
     
     # Instead of this
-    from module import func1, func2, func3, func4, func5, func6, func7, func8, func9, func10
+    from module import func1, func2, func3, func4, func5, func6, func7, func8, func9
 ```
