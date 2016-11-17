@@ -7,4 +7,6 @@ tags: python
 2. Bytcode is fed to the python virtual machine
 3. The python virtual machine executes bytcode instructions
 ```
-Here are two videos that do a good job of giving a brief and clear explanation. [Video 1](https://www.youtube.com/watch?v=DWxl90KwknM) and [Video 2](https://www.youtube.com/watch?v=FYBlSRBFurg)
+
+[Bytecode Generation](https://www.youtube.com/watch?v=DWxl90KwknM) and [Python Virtual Machine ](https://www.youtube.com/watch?v=FYBlSRBFurg) 
+are two videos that do a good job of giving a brief and clear explanation.
