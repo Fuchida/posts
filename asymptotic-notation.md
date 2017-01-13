@@ -11,5 +11,4 @@ When we drop the constant coefficients and the less significant terms,
 we use asymptotic notation.
 ```
 
-[Asymptotic notation]
-(https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
+[Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
