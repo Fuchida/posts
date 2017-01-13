@@ -3,7 +3,6 @@ date: 2017
 tags: Algorithms
 
 Khan Academy has a great explanation on the need of Asymptotic notation. 
-
 Here is the best part.
 
 ```
