@@ -5,7 +5,7 @@ One of my pitfalls when it comes to programming is Tunnel Vision Debugging. Let'
 
 I look at my code and there is nothing wrong, I have not changed anything and yet it fails. Then I formulate a possible cause of the problem as X, I start going down this rabbit hole to prove to myself that X is indeed the cause of the problem and nothing else.
 
-Well I just recently delt with this pitfall while working on [Finkit](http://github.com/fuchida/finkit). I was adding a new test to the test suite but when it came to run the tests, all the previous tests failed.
+Well I just recently delt with this pitfall while working on [Finkit](https://github.com/Fuchida/Archive/tree/master/finkit). I was adding a new test to the test suite but when it came to run the tests, all the previous tests failed.
 
 For whatever reason, my test setup could not send mail. The connection times out when trying to connect to the SMTP server. I immediately pronounced that that problem was my SMTP server in conjuction with SSL/TLS requirements and so I went down the following path.
 
