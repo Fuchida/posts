@@ -15,6 +15,6 @@ For whatever reason, my test setup could not send mail. The connection times out
 
 * Plan to SSH to the server and remove TLS requirements.
 
-2hrs later, I had to leave home and decided I would do step three later. Now while at a different location, I used the service called [Nitrous](https://www.nitrous.io) to run the tests one more time before diving into Postfix. My tests passed without a flinch, turns out <sup>TM</sup> , I had forgotten that my residential ISP blocks port 25.
+2hrs later, I had to leave home and decided I would do step three later. Now while at a different location, I used the service called [Nitrous](https://www.nitrous.io) (Nitrous.io has since shut down) to run the tests one more time before diving into Postfix. My tests passed without a flinch, turns out <sup>TM</sup> , I had forgotten that my residential ISP blocks port 25.
 
 I should have started at the base of the issue, "why is the connection timing out" and troubleshooted the network vs the application then move on to the application.
