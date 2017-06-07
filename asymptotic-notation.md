@@ -1,5 +1,5 @@
 title: Asymptotic notation
-date: 01, 2017
+date: 2017
 tags: Algorithms
 
 Khan Academy has a great explanation on the need of Asymptotic notation. 
