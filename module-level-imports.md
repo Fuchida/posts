@@ -1,5 +1,5 @@
 title: Avoid Module Level Imports
-date: 2017
+date: Febuary, 2017
 tags: Python
 
 Can't remember where I read this but it's good to keep in mind why 
