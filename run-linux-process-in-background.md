@@ -1,5 +1,5 @@
 title: Run Linux Process in Background
-date: 2017
+date: 07-2017
 
 ```
 bash-4.2$ nohup python long_process.py &
