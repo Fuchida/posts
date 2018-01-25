@@ -1,5 +1,5 @@
 title: Python Decorator by Example
-date: January, 2018
+date: 2018
 
 ###Basic Setup for a decorator
 ```
