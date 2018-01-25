@@ -1,5 +1,5 @@
 title: Save terminal output to a file
-date: June, 2017
+date: 2017
 
 All output will be sent to terminal
 and file.
