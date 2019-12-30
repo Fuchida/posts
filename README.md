@@ -1,2 +1,0 @@
-# posts
-All Blog Content
