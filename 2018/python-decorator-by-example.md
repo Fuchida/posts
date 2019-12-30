@@ -1,11 +1,11 @@
 title: Python Decorator by Example
 date: 2018
 
-###Basic Setup for a decorator
-```
+### Basic Setup for a decorator
+```python
 # py:3
 def logger(func):
-    
+
     def wrap(*args, **kwards):
         if "House" in args:
             print "House Logging"

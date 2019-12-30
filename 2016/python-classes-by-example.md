@@ -1,8 +1,8 @@
 title: Python Classes by Example
 date: 2016
 
-###Basic structure of a class
-```
+### Basic structure of a class
+```python
 # py:3.5
 class Person(object):
 
@@ -24,29 +24,29 @@ class Person(object):
 ```
 # py:3.5
 class Citizen(Person):
-    
+
     def __init__(self, name, country, gender):
         super.__init__(self, name, gender)
         self.country = country
-    
+
     def get_nationality(self):
         return self.country
 
 class SecretAgent(Citizen):
-    
+
     def __init__(self, name, country, gender, isActive):
         super().__init__(name, country, gender)
         self.isActive = isActive
    	# Method overriding
     def get_name(self):
         return "###Redacted###"
-    
+
     def get_gender(self):
         return "###Redacted###"
-    
+
     def get_nationality(self):
         return "###Redacted###"
-    
+
     def get_status(self):
         return self.isActive
 ```
